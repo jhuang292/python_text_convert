@@ -1,0 +1,15 @@
+For this program, it is menu program, which asks user to do operations, and the program has the welcome message, and description of each command, promopt the user to enter a string, repeatedly prompt the user for a command and take the action of that command, and the possible commands are: 
+      lcase - make each character in the string lowercase
+      ucase - make each character in the string uppercase
+      alt - alternate case in the string from one character to the next. The first character should always be uppercase, the second lowercase, the third uppercase, and so on.    remspace - remove all whitespace from the string
+      1377 - convert the string to leet-speak:
+             Replace each L or l with a 1 (numeral one)
+             Replace each E or e with a 3 (numeral three)
+             Replace each T or t with a 7 (numeral seven)
+             Replace each O or o with a 0 (numeral zero)
+             Replace each S or s with a $ (dollar sign)
+      rev - reverse order of the characters in the string.
+      restore - undo all changes and restore the string as the user entered it.
+      new - get a new string from the user for processing.
+      quit - display a message and exit the program
+For _alt() method, to know that the character of a string cannot be replaced its own upper or lower case, we should use a new empty to store the characters.
